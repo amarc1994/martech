@@ -1,0 +1,53 @@
+{
+  "name": "martech",
+  "scripts": {
+  },
+  "env": {
+    "EINSTEIN_VISION_ACCOUNT_ID": {
+      "required": true
+    },
+    "EINSTEIN_VISION_PRIVATE_KEY": {
+      "required": true
+    },
+    "EINSTEIN_VISION_URL": {
+      "required": true
+    },
+    "M2X_API_KEY": {
+      "required": true
+    },
+    "M2X_URL": {
+      "required": true
+    },
+    "MAILGUN_API_KEY": {
+      "required": true
+    },
+    "MAILGUN_DOMAIN": {
+      "required": true
+    },
+    "MAILGUN_PUBLIC_KEY": {
+      "required": true
+    },
+    "MAILGUN_SMTP_LOGIN": {
+      "required": true
+    },
+    "MAILGUN_SMTP_PASSWORD": {
+      "required": true
+    },
+    "MAILGUN_SMTP_PORT": {
+      "required": true
+    },
+    "MAILGUN_SMTP_SERVER": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "einstein-vision",
+    "m2x",
+    "mailgun"
+  ],
+  "buildpacks": [
+
+  ]
+}
